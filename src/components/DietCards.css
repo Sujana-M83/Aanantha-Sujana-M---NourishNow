@@ -1,0 +1,80 @@
+/* Container for the whole section */
+.diet-section {
+    text-align: center; /* Center align the header */
+    padding: 20px;
+    margin-top: 1250px;
+  }
+  
+  /* Header styling */
+  .diet-section h3 {
+    font-size: 28px; /* Larger font size for better emphasis */
+    font-weight: bold; /* Make the text bold */
+    color: #333; /* Darker text color for contrast */
+    margin-bottom: 30px; /* More space below the header */
+    text-transform: uppercase; /* Transform text to uppercase */
+    letter-spacing: 1px; /* Add spacing between letters */
+    line-height: 1.4; /* Increase line height for better readability */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow for a 3D effect */
+    max-width: 800px; /* Limit the width to make it more readable */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+  }
+  
+  /* Container for the diet cards */
+  .diet-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards */
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px; /* Space between header and cards */
+  }
+  
+  /* Styling for individual diet cards */
+  .diet-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 40%; /* Width of the cards */
+    padding: 15px; /* Padding inside the cards */
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Space below each card */
+  }
+  
+  /* Styling for diet images */
+  .diet-image {
+    width: 100%;
+    height: 200px; /* Height of the images */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px; /* Space below the image */
+  }
+  
+  /* Styling for card titles */
+  .diet-card h3 {
+    font-size: 16px; /* Font size of the title */
+    margin-bottom: 10px; /* Space below the title */
+  }
+  
+  /* Styling for card descriptions */
+  .diet-card p {
+    font-size: 14px; /* Font size of the description */
+    color: #666;
+    margin-bottom: 15px; /* Space below the description */
+  }
+  
+  /* Styling for the "Learn More" button */
+  .diet-card button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .diet-card button:hover {
+    background-color: #0056b3;
+  }
+  

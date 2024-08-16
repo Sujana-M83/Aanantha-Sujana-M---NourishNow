@@ -1,0 +1,7 @@
+{
+    "dietplans": [
+      { "id": 1, "name": "Keto Diet" },
+      { "id": 2, "name": "Mediterranean Diet" }
+    ]
+  }
+  
